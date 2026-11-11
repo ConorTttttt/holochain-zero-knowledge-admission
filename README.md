@@ -274,6 +274,10 @@ produce cheating proofs and show they are rejected.
   matches the pin.
 - All randomness for setup and proving comes from `OsRng`.
 
+## Nullifier uniqueness research
+
+See the [DHT-wide nullifier uniqueness research](docs/nullifier-uniqueness-research.md) for protocol alternatives and security assumptions, and the [V2 single-use admission design plan](docs/nullifier-uniqueness-design-plan.md) for the recommended implementation architecture, file-level changes, phases, and acceptance tests. **No uniqueness mechanism is implemented yet.**
+
 ## Hardening and security review
 
 The native Groth16 path is deliberately hardened at several independent
