@@ -274,6 +274,10 @@ produce cheating proofs and show they are rejected.
   matches the pin.
 - All randomness for setup and proving comes from `OsRng`.
 
+## Nullifier uniqueness research
+
+See [DHT-wide nullifier uniqueness: protocol survey and V2 design options](docs/nullifier-uniqueness-research.md) for analysis of Privacy Pass, Cashu, Semaphore, Raft/etcd, threshold witnesses, BFT federations and transparency receipts, including security assumptions, implementation phases, and adversarial tests. **No uniqueness mechanism is implemented yet.**
+
 ## Hardening and security review
 
 The native Groth16 path is deliberately hardened at several independent
