@@ -276,7 +276,7 @@ produce cheating proofs and show they are rejected.
 
 ## Nullifier uniqueness research
 
-See [DHT-wide nullifier uniqueness: protocol survey and V2 design options](docs/nullifier-uniqueness-research.md) for analysis of Privacy Pass, Cashu, Semaphore, Raft/etcd, threshold witnesses, BFT federations and transparency receipts, including security assumptions, implementation phases, and adversarial tests. **No uniqueness mechanism is implemented yet.**
+See the [DHT-wide nullifier uniqueness research](docs/nullifier-uniqueness-research.md) for protocol alternatives and security assumptions, and the [V2 single-use admission design plan](docs/nullifier-uniqueness-design-plan.md) for the recommended implementation architecture, file-level changes, phases, and acceptance tests. **No uniqueness mechanism is implemented yet.**
 
 ## Hardening and security review
 
